@@ -1,0 +1,23 @@
+[
+    {
+        "year": "10/2021 -- 04/2025",
+        "companyName": "Mira Commerce - Frontend Engineer ",
+        "companyURL":"https://www.miracommerce.com/",
+        "description":"Build, maintain and support projects, deliver ecommerce websites with high level of detail, performance, best practices and clean code. Styling and ensuring user experience. Work closely with the QA team, UX/UI and technical leads to keep the process fast and effective.",
+        "techList":"React,NextJS,Node.js,BigCommerce,Stencil,TailwindCSS,Typescript,Scrum"
+    },
+    {
+        "year": "02/2021 -- 04/2021",
+        "companyName": "PowerHouse - Frontend Freelancer",
+        "companyURL":"https://www.linkedin.com/company/powerhouseinc",
+        "description":"As a freelance work, I built and style specific features, deliver high-quality code, accesible and clean.",
+        "techList":"React,NextJS,Node.js,Typescript,Java,Spring,TailwindCSS,MongoDB,Express"
+    },
+    {
+        "year": "02/2019 -- 10/2021",
+        "companyName": "Temperies - Software Developer",
+        "companyURL":"https://www.temperies.com/",
+        "description":"Develop and apply engineering concepts to projects from scratch. Create features, components and styles for web pages oriented to finance, sports, time tracking, employee management. Ensure 100% tested and documented deliverables.",
+        "techList":"React,NextJS,Java,Spring,SCSS,TailwindCSS,Typescript,HTML5,Scrum,Vue,Angular, Multiples DB"
+    }
+]
