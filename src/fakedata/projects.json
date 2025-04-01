@@ -1,0 +1,53 @@
+[
+    {
+        "companyName": "Sierra Bullets",
+        "companyURL": "https://www.sierrabullets.com/",
+        "description": "Build and mantain the e-commerce entire site. Ensure WCGA standars, SEO optimization, high level of performance and user experience",
+        "techList": "Next.js,BigCommerce,Stencil,Typescript,NodeJS,SCSS",
+        "imageURL": "/sierrabullets.jpg"
+    },
+    {
+        "companyName": "Barnes Bullets",
+        "companyURL": "https://www.barnesbullets.com/",
+        "description": "Build and mantain the e-commerce entire site. Ensure WCGA standars, SEO optimization, high level of performance and user experience",
+        "techList": "React,Next.js,BigCommerce, Stencil,Typescript,NodeJS,SCSS",
+        "imageURL": "/barnesbullets.png"
+    },
+    {
+        "companyName": "Level 9 Sports",
+        "companyURL": "https://www.levelninesports.com/",
+        "description": "Build and mantain the headless e-commerce entire site. Ensure WCGA standars, SEO optimization, high level of performance and user experience",
+        "techList": "React,Next.js,BigCommerce,Typescript,NodeJS,SCSS",
+        "imageURL": "/l9.png"
+    },
+    {
+        "companyName": "Triatlon Personal Site",
+        "companyURL": "https://matias-videla-triatleta.vercel.app/",
+        "description": "Built my personal sport resume webpage to keep organized my experience, results and race calendar.",
+        "techList": "React,Next.js,Typescript,TailwindCSS, Vercel",
+        "imageURL": "/triatlonpage.jpg"
+    },
+    {
+        "companyName": "Home Outlet",
+        "companyURL": "https://homeoutlet.com/",
+        "description": "Built an e-commerce platform ensuring SEO, performance, user experience and high-quality deliverable.",
+        "techList": "NodeJS, Bigcommerce, Javascript, Stencil, React",
+        "imageURL": "/homeoutlet.png"
+    },
+
+    {
+        "companyName": "Weather Landing Page",
+        "companyURL": "https://weather-dashboard-iota-umber.vercel.app/",
+        "description": "Built the landing page for search the weather in specific city.",
+        "techList": "React, TailwindCSS, React Query, Vercel",
+        "imageURL": "/rayo.png"
+    },
+
+    {
+        "companyName": "MooDebit",
+        "companyURL": "https://moodebit.com/",
+        "description": "We developed MooDebit to be the ally of large companies for recurring payments.",
+        "techList": "Angular, Javascript, CSS, Scrum",
+        "imageURL": "/moodebit.png"
+    }
+]
