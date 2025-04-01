@@ -4,6 +4,7 @@ import "./globals.css";
 import { Suspense } from "react";
 import Loader from "@/components/loader/loader";
 import ClientLayout from "./clientLayout";
+import { Analytics } from "@vercel/analytics/react"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900`}
       >
+        <Analytics />
         <ClientLayout>
           <Suspense fallback={<Loader />} >
             {children}
