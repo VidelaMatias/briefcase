@@ -4,6 +4,7 @@ import { About } from "@/components/homepageSections/about";
 import { Experience } from "@/components/homepageSections/experience";
 import { Projects } from "@/components/homepageSections/projects";
 import { TechStack } from "@/components/homepageSections/techStack";
+import Link from "next/link";
 
 export default function Home() {
 
@@ -16,6 +17,15 @@ export default function Home() {
         <main className="pt-24 lg:w-[52%] lg:py-24">
           <About />
           <TechStack />
+          <div className="flex flex-row w-full gap-4 justify-around">
+          <Link className="block mb-6 text-emerald-50 hover:text-emerald-400 font-bold" href="/matias_videla_software_resume.pdf" target="_blank" rel="noopener noreferrer">
+            Open Complete PDF Resume
+          </Link>
+          <Link className="block mb-6 text-emerald-50 hover:text-emerald-400 font-bold" href="https://matias-videla-resume.vercel.app/" target="_blank" rel="noopener noreferrer">
+            Go to Online Resume
+          </Link>
+          </div>
+         
           <Experience />
           <Projects />
           <Footer />

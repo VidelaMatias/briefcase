@@ -1,7 +1,7 @@
 import TechChip from "../techChip/techChip"
 
 export const TechStack = () => {
-    const techList: string[] =["React","Next.js","TailwindCSS","Bigcommerce","Node.js","Typescript","Java","Spring","MondoDB","Express","Scrum","AWS","Vue","Pattern Designs"];
+    const techList: string[] =["React","Next.js","SOLID","TailwindCSS","Testing","Bigcommerce","NodeJS","Typescript","Javascript","Java","Spring","MondoDB","Express","Scrum","AWS","VueJS","Angular","Pattern Design"];
 
     return (
         <section id="techStack" className="mb-10 scroll-mt-10 md:mb-10 lg:scroll-mt-10">
@@ -10,7 +10,6 @@ export const TechStack = () => {
             </div>
             <ul className="flex flex-wrap gap-2">
                 {techList.map((item) => (
-                    
                     <TechChip key={item} name={item} />
                 ))}
             </ul>
