@@ -37,8 +37,8 @@
 
     {
         "companyName": "Weather Landing Page",
-        "companyURL": "https://weather-dashboard-iota-umber.vercel.app/",
-        "description": "Built the landing page for search the weather in specific city.",
+        "companyURL": "https://weatherdashboard-nine.vercel.app/",
+        "description": "Built the landing page for search the weather for specific city.",
         "techList": "React, TailwindCSS, React Query, Vercel",
         "imageURL": "/rayo.png"
     },
