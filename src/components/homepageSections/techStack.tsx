@@ -1,7 +1,7 @@
 import TechChip from "../techChip/techChip"
 
 export const TechStack = () => {
-    const techList: string[] =["React","Next.js","SOLID","TailwindCSS","Testing","Bigcommerce","NodeJS","Typescript","Javascript","Java","Spring","MondoDB","Express","Scrum","AWS","VueJS","Angular","Pattern Design"];
+    const techList: string[] =["React","Next.js","SOLID","TailwindCSS","Testing","Bigcommerce","NodeJS","Typescript","Javascript","Java","Spring","MondoDB","MySQL","Express","Scrum","AWS","VueJS","Angular","Pattern Design"];
 
     return (
         <section id="techStack" className="mb-10 scroll-mt-10 md:mb-10 lg:scroll-mt-10">
