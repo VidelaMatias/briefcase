@@ -14,7 +14,7 @@ export default function Home() {
       <a href="#content" className="absolute left-0 top-0 block -translate-x-full rounded bg-gradient-to-br from-teal-400 via-blue-500 to-purple-600 px-4 py-3 text-sm font-bold uppercase tracking-widest text-white focus-visible:translate-x-0">Skip to Content</a>
       <div className="lg:flex lg:justify-between lg:gap-4">
         <Header />
-        <main className="pt-24 lg:w-[52%] lg:py-24">
+        <main id="content" tabIndex={-1} className="pt-20 lg:w-[52%] lg:py-24">
           <About />
           <TechStack />
           <div className="flex flex-row w-full gap-4 justify-around">

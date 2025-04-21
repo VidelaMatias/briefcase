@@ -32,11 +32,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900`}
       >
         <Analytics />
-        <ClientLayout>
-          <Suspense fallback={<Loader />} >
-            {children}
-          </Suspense>
-        </ClientLayout>
+        {children}
       </body>
     </html>
   );

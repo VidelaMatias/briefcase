@@ -16,7 +16,7 @@ const ExperienceCard: FC<Props> = ({ year, companyName, companyURL, description,
 
     return (
         <li key={companyName} >
-            <div className="group relative mb-6 grid pb-1 transition-all duration-300 sm:grid-cols-10 sm:gap-8 md:gap-4 
+            <div className="group relative mb-6 grid transition-all duration-300 sm:grid-cols-10 sm:gap-8 md:gap-4 
 lg:hover:!opacity-100 lg:group-hover/list:opacity-50 bg-slate-900 rounded-lg p-4 
 hover:bg-slate-800 hover:shadow-lg hover:scale-105 hover:border-teal-400 border border-transparent">
                 {year &&
