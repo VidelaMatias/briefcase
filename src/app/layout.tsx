@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Suspense } from "react";
-import Loader from "@/components/loader/loader";
-import ClientLayout from "./clientLayout";
 import { Analytics } from "@vercel/analytics/react"
 
 const geistSans = Geist({
