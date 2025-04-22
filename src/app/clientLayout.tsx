@@ -1,13 +1,16 @@
 "use client";
 
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { ReactNode } from "react";
+import { ReactNode, useState } from "react";
+import { Analytics } from "@vercel/analytics/react"
 
-const queryClient = new QueryClient();
+
 
 export default function ClientLayout({ children }: { children: ReactNode }) {
+  const [queryClient] = useState(() => new QueryClient());
   return (
     <QueryClientProvider client={queryClient}>
+      <Analytics />
       {children}
     </QueryClientProvider>
   );
