@@ -9,6 +9,7 @@ export const Nav = () => {
         { id: "techStack", label: "Tech Stack" },
         { id: "experience", label: "Experience" },
         { id: "projects", label: "Projects" },
+        { id: "certifications", label: "Certifications" },
     ];
 
     useEffect(() => {

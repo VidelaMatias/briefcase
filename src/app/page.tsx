@@ -1,6 +1,7 @@
 import Footer from "@/components/footer/footer";
 import { Header } from "@/components/header/header";
 import { About } from "@/components/homepageSections/about";
+import { Certifications } from "@/components/homepageSections/certifications";
 import { Experience } from "@/components/homepageSections/experience";
 import { Projects } from "@/components/homepageSections/projects";
 import { TechStack } from "@/components/homepageSections/techStack";
@@ -28,6 +29,7 @@ export default function Home() {
          
           <Experience />
           <Projects />
+          <Certifications/>
           <Footer />
         </main>
       </div>
