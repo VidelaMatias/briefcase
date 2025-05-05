@@ -1,23 +1,30 @@
 [
     {
+        "year": "05/2025- currenly",
+        "companyName": "Staffy | Concord - Sr. UI Engineer",
+        "companyURL": "https://wearestaffy.com/",
+        "description": "Develop and maintain complex UI components and applications using React. Ensure the performance, quality, and responsiveness of applications. Stay up-to-date with the latest trends and best practices in front-end development. Implement unit and integration tests to ensure code reliability.",
+        "techList": "React,Next.js,NodeJS,Salesforce,TailwindCSS,Jest,Cypress,Typescript"
+    },
+    {
         "year": "10/2021 - 04/2025",
         "companyName": "Mira Commerce - Frontend Engineer",
-        "companyURL":"https://www.miracommerce.com/",
-        "description":"Build, maintain and support projects, deliver ecommerce websites with high level of detail, performance, best practices and clean code. Styling and ensuring user experience. Work closely with the QA team, UX/UI and technical leads to keep the process fast and effective.",
-        "techList":"React,Next.js,NodeJS,BigCommerce,Java,SpringBoot,MySQL,TailwindCSS,Jest,Cypress,Typescript,Scrum,AWS"
+        "companyURL": "https://www.miracommerce.com/",
+        "description": "Build, maintain and support projects, deliver ecommerce websites with high level of detail, performance, best practices and clean code. Styling and ensuring user experience. Work closely with the QA team, UX/UI and technical leads to keep the process fast and effective.",
+        "techList": "React,Next.js,NodeJS,BigCommerce,Java,SpringBoot,MySQL,TailwindCSS,Jest,Cypress,Typescript,Scrum,AWS"
     },
     {
         "year": "02/2021 - 04/2021",
         "companyName": "PowerHouse - Frontend Freelancer",
-        "companyURL":"https://www.linkedin.com/company/powerhouseinc",
-        "description":"As a freelance work, I built and style specific features, deliver high-quality code, accesible and clean.",
-        "techList":"React,Next.js,NodeJS,Typescript,Java,SpringBoot,TailwindCSS,Jest,Cypress,MongoDB,Express,Scrum"
+        "companyURL": "https://www.linkedin.com/company/powerhouseinc",
+        "description": "As a freelance work, I built and style specific features, deliver high-quality code, accesible and clean.",
+        "techList": "React,Next.js,NodeJS,Typescript,Java,SpringBoot,TailwindCSS,Jest,Cypress,MongoDB,Express,Scrum"
     },
     {
         "year": "02/2019 - 10/2021",
         "companyName": "Temperies - Software Developer",
-        "companyURL":"https://www.temperies.com/",
-        "description":"Develop and apply engineering concepts to projects from scratch. Create features, components and styles for web pages oriented to finance, sports, time tracking, employee management. Ensure 100% tested and documented deliverables.",
-        "techList":"React,Next.js,Java,SpringBoot,TailwindCSS,Typescript,Jest,Cypress,HTML5,Scrum,Vue,Angular, Multiples DB"
+        "companyURL": "https://www.temperies.com/",
+        "description": "Develop and apply engineering concepts to projects from scratch. Create features, components and styles for web pages oriented to finance, sports, time tracking, employee management. Ensure 100% tested and documented deliverables.",
+        "techList": "React,Next.js,Java,SpringBoot,TailwindCSS,Typescript,Jest,Cypress,HTML5,Scrum,Vue,Angular, Multiples DB"
     }
 ]
