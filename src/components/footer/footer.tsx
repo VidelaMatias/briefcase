@@ -6,6 +6,8 @@ const Footer = () => {
             <br/>
             Validated WCAG(y11) with Wave & Lighthouse.
             <br/>
+            Used https://squish.addy.ie/ to optimize images
+            <br/>
             Use FormSubmit for contact form.
       </footer>
     )

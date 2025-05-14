@@ -4,28 +4,28 @@
         "companyURL": "https://www.sierrabullets.com/",
         "description": "Build and mantain the e-commerce entire site. Ensure WCGA standars, SEO optimization, high level of performance and user experience",
         "techList": "Next.js,BigCommerce,Stencil,Typescript,NodeJS,SCSS",
-        "imageURL": "/sierrabullets.jpg"
+        "imageURL": "/sierrabullets.webp"
     },
     {
         "companyName": "Barnes Bullets",
         "companyURL": "https://www.barnesbullets.com/",
         "description": "Build and mantain the e-commerce entire site. Ensure WCGA standars, SEO optimization, high level of performance and user experience",
         "techList": "React,Next.js,BigCommerce, Stencil,Typescript,NodeJS,SCSS",
-        "imageURL": "/barnesbullets.png"
+        "imageURL": "/barnesbullets.webp"
     },
     {
         "companyName": "Level 9 Sports",
         "companyURL": "https://www.levelninesports.com/",
         "description": "Build and mantain the headless e-commerce entire site. Ensure WCGA standars, SEO optimization, high level of performance and user experience",
         "techList": "React,Next.js,BigCommerce,Typescript,NodeJS,SCSS",
-        "imageURL": "/l9.png"
+        "imageURL": "/l9.webp"
     },
     {
-        "companyName": "Triatlon Personal Site",
+        "companyName": "Sports Personal Site",
         "companyURL": "https://matias-videla-triatleta.vercel.app/",
         "description": "Built my personal sport resume webpage to keep organized my experience, results and race calendar.",
         "techList": "React,Next.js,Typescript,TailwindCSS, Vercel",
-        "imageURL": "/triatlonpage.jpg"
+        "imageURL": "/personalweb.webp"
     },
     {
         "companyName": "Home Outlet",
