@@ -1,5 +1,19 @@
 [
     {
+        "companyName": "CosmoProf",
+        "companyURL": "https://www.cosmoprofbeauty.com/",
+        "description": "High level of performance and user experience. Leading a team to ensure high code quality and best practices implementation.",
+        "techList": "ReactJS, Salesforce Ecommerce Manager,Jquery, NodeJS, SCSS",
+        "imageURL": "/cosmoprof.png"
+    },
+    {
+        "companyName": "Sally Beauty",
+        "companyURL": "https://www.sallybeauty.com/",
+        "description": "High level of performance and user experience. Leading a team to ensure high code quality and best practices implementation.",
+        "techList": "ReactJS, Salesforce Ecommerce Manager,Jquery, NodeJS, SCSS",
+        "imageURL": "/sallybeauty.webp"
+    },
+    {
         "companyName": "Sierra Bullets",
         "companyURL": "https://www.sierrabullets.com/",
         "description": "Build and mantain the e-commerce entire site. Ensure WCGA standars, SEO optimization, high level of performance and user experience",
