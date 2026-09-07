@@ -1,30 +1,30 @@
 [
     {
-        "year": "05/2025- currenly",
-        "companyName": "Sally Beauty | Staffy | Concord - Sr. UI Engineer",
+        "year": "05/2025 — Present",
+        "companyName": "Sally Beauty via Staffy & Concord — Sr. UI Engineer",
         "companyURL": "http://concordusa.com/",
-        "description": "Salesforce administrator content. Lead a team to ensure the performance, quality, and responsiveness of applications. Develop and maintain complex UI components and applications using React. Stay up-to-date with the latest trends and best practices in front-end development. Implement unit and integration tests to ensure code reliability.",
-        "techList": "Salesforce Ecommerce Cloud, React,Next.js,NodeJS,Salesforce, TailwindCSS,Typescript"
+        "description": "Lead the frontend team behind Sally Beauty's Salesforce Commerce Cloud storefronts, owning performance, quality and responsiveness. Build and maintain complex React components, run code reviews, define best practices, and back every release with unit and integration tests.",
+        "techList": "Salesforce Commerce Cloud, React, React Native, Next.js, Node.js, TailwindCSS, TypeScript"
     },
     {
-        "year": "10/2021 - 04/2025",
-        "companyName": "Mira Commerce - Frontend Engineer",
+        "year": "10/2021 — 04/2025",
+        "companyName": "Mira Commerce — Frontend Engineer",
         "companyURL": "https://www.miracommerce.com/",
-        "description": "Build, maintain and support projects, deliver ecommerce websites with high level of detail, performance, best practices and clean code. Styling and ensuring user experience. Work closely with the QA team, UX/UI and technical leads to keep the process fast and effective.",
-        "techList": "React,Next.js,NodeJS,BigCommerce,Java,SpringBoot,MySQL,TailwindCSS,Jest,Cypress,Typescript,Scrum,AWS"
+        "description": "Delivered and maintained e-commerce storefronts with a strong focus on performance, accessibility and clean, well-tested code. Worked closely with QA, UX/UI and tech leads to keep delivery fast and predictable.",
+        "techList": "React, Next.js, Node.js, BigCommerce, MySQL, TailwindCSS, Jest, Cypress, TypeScript, AWS, Scrum"
     },
     {
-        "year": "02/2021 - 04/2021",
-        "companyName": "PowerHouse - Frontend Freelancer",
+        "year": "02/2021 — 04/2021",
+        "companyName": "PowerHouse — Frontend Freelancer",
         "companyURL": "https://www.linkedin.com/company/powerhouseinc",
-        "description": "As a freelance work, I built and style specific features, deliver high-quality code, accesible and clean.",
-        "techList": "React,Next.js,NodeJS,Typescript,Java,SpringBoot,TailwindCSS,Jest,Cypress,MongoDB,Express,Scrum"
+        "description": "Built and styled product features as a freelancer, delivering accessible, high-quality code on a tight timeline.",
+        "techList": "React, Next.js, Node.js, TypeScript, Java, React Native, TailwindCSS, Jest, Cypress, MongoDB, Express, Scrum"
     },
     {
-        "year": "02/2019 - 10/2021",
-        "companyName": "Temperies - Software Developer",
+        "year": "02/2019 — 10/2021",
+        "companyName": "Temperies — Software Developer",
         "companyURL": "https://www.temperies.com/",
-        "description": "Develop and apply engineering concepts to projects from scratch. Create features, components and styles for web pages oriented to finance, sports, time tracking, employee management. Ensure 100% tested and documented deliverables.",
-        "techList": "React,Next.js,Java,SpringBoot,TailwindCSS,Typescript,Jest,Cypress,HTML5,Scrum,Vue,Angular, Multiples DB"
+        "description": "Built web products from scratch across finance, sports, time tracking and employee management — features, components and design systems — with fully tested and documented deliverables.",
+        "techList": "React, Next.js, Vue, Angular, Java, Spring Boot, TailwindCSS, TypeScript, Jest, Cypress, HTML5, Scrum"
     }
 ]

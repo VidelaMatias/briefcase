@@ -1,26 +1,45 @@
-## Getting Started
+# Matias Videla — Portfolio
 
-First, run the development server:
+Personal portfolio of Matias Videla, Senior Frontend Engineer. Single-page site
+with a sticky sidebar, scroll-tracked navigation, and sections for experience,
+projects and certifications, plus a contact form.
+
+## Stack
+
+- **Next.js 15** (App Router) + **React 19** + **TypeScript**
+- **Tailwind CSS v4**
+- **Framer Motion** for scroll-reveal animations
+- **FormSubmit** for the contact form (no backend required)
+- Deployed on **Vercel**, with **Vercel Analytics**
+
+## Running locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open <http://localhost:3000>.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the dev server (Turbopack) |
+| `npm run build` | Production build |
+| `npm run start` | Serve the production build |
+| `npm run lint` | Run ESLint |
 
+## Content
 
-## Deploy on Vercel
+Experience and project entries live in `src/fakedata/*.json`, so updating the
+site is a matter of editing those files — no component changes required.
+Certifications and the tech-stack list are defined in their respective
+components under `src/components/homepageSections/`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Accessibility & performance
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The site is checked with WAVE and Lighthouse against WCAG 2.1: semantic
+landmarks, a skip link, visible focus rings, labelled form controls, and a
+`prefers-reduced-motion` fallback for all animations. Images are served as
+optimised WebP through `next/image`.

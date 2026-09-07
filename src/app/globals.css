@@ -1,36 +1,68 @@
 @import "tailwindcss";
-@tailwind utilities;
 
 :root {
-  --background: #101D3D;
-  --foreground: #94A3B8;
-  --foreground-title: rgb(226 232 240);
+  --background: #0f172a;
+  --background-elevated: #111f3d;
+  --foreground: #94a3b8;
+  --foreground-title: #e2e8f0;
+  --accent: #5eead4;
 }
 
 @theme inline {
   --color-background: var(--background);
+  --color-background-elevated: var(--background-elevated);
   --color-foreground: var(--foreground);
-  --color-foreground-title: var(--foreground-title)
+  --color-foreground-title: var(--foreground-title);
+  --color-accent: var(--accent);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
 html {
   scroll-behavior: smooth;
+  /* Keeps anchored sections clear of the sticky mobile section headers. */
+  scroll-padding-top: 5rem;
 }
 
-.scrollbar-none 
- {
-    overflow: auto; /* o scroll */
-    scrollbar-width: none;     /* Firefox */
-    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+body {
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  /* Soft glow behind the hero so the flat navy has some depth. */
+  background-color: var(--background);
+  background-image: radial-gradient(
+    60rem 40rem at 15% 0%,
+    rgba(45, 212, 191, 0.09),
+    transparent 60%
+  );
+  background-attachment: fixed;
+}
+
+/* One consistent, visible focus ring across links, buttons and form fields. */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.scrollbar-none {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
-  
-  .scrollbar-none ::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Opera */
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
   }
+}

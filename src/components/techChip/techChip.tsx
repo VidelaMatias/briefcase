@@ -1,18 +1,15 @@
 import { FC } from "react";
 
 interface Props {
-    name: string
+  name: string;
 }
 
 const TechChip: FC<Props> = ({ name }) => {
+  return (
+    <li className="rounded-full border border-teal-400/20 bg-teal-400/10 px-3 py-1 text-xs font-medium text-teal-300 transition-colors duration-300 hover:border-teal-400/40 hover:bg-teal-400/20">
+      {name}
+    </li>
+  );
+};
 
-    return (
-        <li
-            key={name}
-            className="rounded-2xl text-sm font-semibold bg-teal-700 text-white py-1 px-3 hover:bg-teal-900 transition-all duration-300"
-        >
-            {name}
-        </li>
-    )
-}
 export default TechChip;
